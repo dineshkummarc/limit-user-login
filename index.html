@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="https://sourcecodester.com">Sourcecodester</a>
+		</div>
+	</nav>
+	
+	<div class="col-md-3"></div>
+	<div class="col-md-6 well">
+		<h3 class="text-primary">Limit User Login Attempt Using JavaScript</h3>
+		<hr style="border-top:1px dotted #ccc;"/>
+		<div class="col-md-6">
+			<form>
+				<div class="form-group">
+					<label>Username:</label>
+					<input type="text" class="form-control" id="username" />
+				</div>
+				<div class="form-group">	
+					<label>Password :</label>
+					<input type="password" class="form-control" id="password"/>
+				</div>
+				<span id="msg"></span>
+				<br />
+				<center><button class="btn btn-primary" type="button" id="login" onclick="userLogin();">Login</button></center>
+				<br />
+				<center><button class="btn btn-success" type="button" id="reset" onclick="resetAll();" style="display:none;">Reset</button></center>
+			</form>
+		</div>
+		<div class='col-md-3'>
+			<h5>Login details<h5>
+			<h6>Username: admin</h6>
+			<h6>Password: admin</h6>
+		</div>
+	</div>
+<script src="js/script.js"></script>	
+</body>
+</html>
